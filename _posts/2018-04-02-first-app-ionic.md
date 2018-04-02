@@ -34,14 +34,14 @@ Pronto, se você conseguiu instalar tudo o que precisa, agora você está pronto
 Antes de criar o app, você vai precisar possuir intalado um editor de texto na sua máquina, instale o da sua preferência, até onde sei os mais famosos são Sublime Text, Visual Studio Code e Atom, sinta se a vontade para usar qualquer um dos três. Abaixo vou listar os links para download de cada um, além de um link com instruções para instalação no Linux. No Windows a instalação de todos é tão simples que nem precisa de link. :-D
 
 1. Visual Studio Code 
-	1.1. [Download](https://code.visualstudio.com)
-	1.2. [Instalação no Linux](https://code.visualstudio.com/docs/setup/linux)
+	* [Download](https://code.visualstudio.com)
+	* [Instalação no Linux](https://code.visualstudio.com/docs/setup/linux)
 2. Atom 
-	2.1. [Download](https://atom.io)
-	2.2. [Instalação no Linux](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux)
+	* [Download](https://atom.io)
+	* [Instalação no Linux](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux)
 3. Sublime Text
-	3.1. [Download](https://www.sublimetext.com/3)
-	3.2. [Instalação no Linux](https://www.omgubuntu.co.uk/2017/05/how-to-install-sublime-text-ubuntu-linux)
+	* [Download](https://www.sublimetext.com/3)
+	* [Instalação no Linux](https://www.omgubuntu.co.uk/2017/05/how-to-install-sublime-text-ubuntu-linux)
  
 **2. Criando nosso primeiro app**
 
