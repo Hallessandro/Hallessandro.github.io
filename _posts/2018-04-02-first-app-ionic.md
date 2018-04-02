@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Criando um app com Ionic - Parte I - Instalação e criação do projeto"
+title: "Desenvolvendo um app mobile com Ionic 3, Parte I - Instalação e criação do projeto"
 author: "Hallessandro D´villa"
 categories: journal
 tags: [documentation,sample]
@@ -8,7 +8,7 @@ tags: [documentation,sample]
 
 Olá terráqueos, neste primeiro post vamos ver como instalar e criar nossa primeira app utilizando o Ionic 3. O Ionic, caso você não conheça, é um framework para desenvolvimento de aplicações móveis híbridas, de forma rápida e de fácil aprendizado. 
 
-** 1. Configurando o ambiente ** 
+**1. Configurando o ambiente** 
 
 Para instalar o Ionic você vai precisar ter instalado o Node e o npm, você pode fazer isso baixando o Node [aqui](https://nodejs.org/en/). 
 
@@ -31,7 +31,7 @@ npm install -g ionic cordova
 
 Pronto, se você conseguiu instalar tudo o que precisa, agora você está pronto para criar sua primeira app com Ionic e é isso que vamos fazer no tópico 2. :-D 
 
-** 2. Criando nossa primeira app **
+**2. Criando nossa primeira app**
 
 O Ionic por padrão já possui alguns templates que podemos usar para criar nosso projeto, vamos usar o blank que é o mais simples, mas caso tenha interesse, [aqui](https://ionicframework.com/docs/cli/starters.html) você pode encontrar mais detalhes de todos os templates disponíveis. 
 
