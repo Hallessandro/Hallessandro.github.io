@@ -3,7 +3,7 @@ layout: post
 title: "Desenvolvendo um app mobile com Ionic 3, Parte I - Instalação e criação do projeto"
 author: "Hallessandro D´villa"
 categories: journal
-tags: [documentation,sample]
+tags: [ionic,app, mobile, multiplataforma]
 ---
 
 Olá terráqueos, neste primeiro post vamos ver como instalar e criar nosso primeiro app utilizando o Ionic 3. O Ionic, caso você não conheça, é um framework para desenvolvimento de aplicações móveis híbridas, de forma rápida e de fácil aprendizado. 
@@ -51,13 +51,7 @@ Para criar o projeto, execute o comando abaixo:
 ```
 ionic start nome_app blank
 ```
-Troque nome_app pelo nome que deseja dar a sua app, vou chamar a minha de guiacursosifrn, pois ela vai listar todos os cursos disponíveis no Instituto Federal de Educação, Ciência e Tecnologia do RN.  
-
-A lista dos cursos vai ser obtida por meio do link abaixo: 
-
->[Lista de cursos do IFRN](https://dados.ifrn.edu.br/dataset/7b48f9d0-205d-46b1-8225-a3cc7d3973ff/resource/fe0e9d2c-1c02-4625-b692-13edcc3380ae/download/dados_extraidos_recursos_cursos-ofertados.json)
-
-Se você acessou o link acima, deve ter visto que ele apresenta uma lista gigante de dados em formato JSON, não se preocupe com isso, vamos ver como ler esses dados e filtrar conforme nossa necessidade. 
+Troque "nome_app" por um nome de sua prefêrencia, esse vai ser o nome do seu projeto.
 
 Agora que você já criou sua app, é bem provável que você deseje ver como ela está no momento, para isso execute o comando abaixo: 
 
