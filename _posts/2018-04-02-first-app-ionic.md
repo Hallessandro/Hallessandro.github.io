@@ -35,10 +35,10 @@ Antes de criar o app, você vai precisar possuir intalado um editor de texto na 
 
 1. Visual Studio Code 
 	* [Download](https://code.visualstudio.com)
-	* [Instalação no Linux](https://code.visualstudio.com/docs/setup/linux)
+	* [Instalação](https://code.visualstudio.com/docs/setup/linux)
 2. Atom 
 	* [Download](https://atom.io)
-	* [Instalação no Linux](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux)
+	* [Instalação](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux)
 3. Sublime Text
 	* [Download](https://www.sublimetext.com/3)
 	* [Instalação no Linux](https://www.omgubuntu.co.uk/2017/05/how-to-install-sublime-text-ubuntu-linux)
