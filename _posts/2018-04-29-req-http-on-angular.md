@@ -6,7 +6,7 @@ categories: programmi
 tags: [angular,javascript, rest, api]
 ---
 
-Desde da versão 4.3 o Angular introduziu um novo móudlo HTTP, o HttpClient. Disponível no pacote @angular/common/httt, esse novo módulo é uma reformulação completa do antigo HttpModule, e nesse post vamos ver como consumir uma API utilizando esse carinha. 
+Desde da versão 4.3 o Angular introduziu um novo módulo HTTP, o HttpClient. Disponível no pacote @angular/common/httt, esse novo módulo é uma reformulação completa do antigo HttpModule, e nesse post vamos ver como consumir uma API utilizando esse carinha. 
 
 
 Antes de tudo é necessário criar um novo projeto, para isso digite o comando abaixo no terminal, trocando rickMortyClient pelo nome que você deseja dar ao seu projeto (Em breve você vai entender o motivo do meu ter esse nome). 
