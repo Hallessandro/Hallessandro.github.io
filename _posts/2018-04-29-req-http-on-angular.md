@@ -6,10 +6,10 @@ categories: programmi
 tags: [angular,javascript, rest, api]
 ---
 
-Desde da versão 4.3 o Angular introduziu um novo móudlo HTTP, o HttpClient, disponível no pacote @angular/common/http. Esse novo módulo é uma reformulação completa do antigo HttpModule, nesse post vamos ver como consumir uma API utilizando o HttpClient. 
+Desde da versão 4.3 o Angular introduziu um novo móudlo HTTP, o HttpClient. Disponível no pacote @angular/common/httt, esse novo módulo é uma reformulação completa do antigo HttpModule, e nesse post vamos ver como consumir uma API utilizando esse carinha. 
 
 
-Antes de tudo é necessário criar um novo projeto, para isso digite o comando abaixo no terminal, trocando rickMortyClient pelo nome que você deseja dar ao seu projeto (Em breve você vai entender o motivo do meu ter esse nome :-D). 
+Antes de tudo é necessário criar um novo projeto, para isso digite o comando abaixo no terminal, trocando rickMortyClient pelo nome que você deseja dar ao seu projeto (Em breve você vai entender o motivo do meu ter esse nome). 
 ```
 ng new rickMortyClient
 ```
@@ -242,6 +242,6 @@ O código completo desse post você pode encontrar [aqui](https://github.com/Hal
 
 **Referências:**
 
-[THE RICK AND MORTY API](https://rickandmortyapi.com)
-[HttpClient](https://angular.io/guide/http)
-[Angular 4.3 HttpClient (Accessing REST Web Services With Angular)](https://medium.com/codingthesmartway-com-blog/angular-4-3-httpclient-accessing-rest-web-services-with-angular-2305b8fd654b)
+1. [THE RICK AND MORTY API](https://rickandmortyapi.com)
+2. [HttpClient](https://angular.io/guide/http)
+3. [Angular 4.3 HttpClient (Accessing REST Web Services With Angular)](https://medium.com/codingthesmartway-com-blog/angular-4-3-httpclient-accessing-rest-web-services-with-angular-2305b8fd654b)
