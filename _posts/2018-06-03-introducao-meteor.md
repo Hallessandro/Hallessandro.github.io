@@ -6,15 +6,15 @@ categories: programmi
 tags: [meteor,javascript, node, meteorjs]
 ---
 
-Olá terráqueos, faz um bom tempo que não posto nada novo, muito pelo fato que ultimamente não vinha trabalhando com muita coisa nova no último mês. Porém isso mudou nos últimos dias graças ao Meteor. Se você não sabe o que é, assim como eu não sabia, você precisa conhecer. 
+Olá terráqueos, faz um bom tempo que não posto nada novo, muito pelo fato que ultimamente não vinha trabalhando com coisas novas. Porém isso mudou nos últimos dias graças ao Meteor. Se você não sabe o que é, assim como eu não sabia, você precisa conhecer. 
 
 Se você acessar a página do Meteor, [aqui](https://www.meteor.com/), você vai encontrar a seguinte descrição "THE FASTEST WAY TO BUILD JAVASCRIPT APPS", mas o que isso quer dizer?
  
-Rapaz, o negócio é realmente rápido, primeiro pois todo o seu código do back ao front vai ser desenvolvido em uma única linguagem, JavaScript. Segundo, nada de configurações chatas e complicadas, aqui nem o banco você precisa se preocupar em configurar, o Meteor já faz isso para você, quando você criar um projeto ele já vem com um MongoDB prontinho para uso. 
+Rapaz, o negócio é realmente rápido, primeiro de tudo é que todo o seu código do back ao front vai ser desenvolvido em uma única linguagem, JavaScript. Segundo, nada de configurações chatas e complicadas, aqui nem o banco você precisa se preocupar em configurar, o Meteor já faz isso para você, quando você criar um projeto ele já vem com um MongoDB prontinho para uso. 
 
 Algo que achei sensacional quandro criei meu projeto, é que não preciso criar classes de modelo duas vezes, algo bem comum quando se tem uma aplicação cliente/servidor. 
 
-Um projeto Meteor é divido em duas pastas bases, client e server, tudo que você colocar em client vai ser utilizado pelo cliente e tudo que for em server pelo servidor, o grande truque aqui, é que tudo que for para ser usado tanto por client quanto por server deve ficar fora de ambos os diretórios, assim tanto client quanto server conseguiram visualizar e utilizar o conteúdo. 
+Um projeto Meteor é divido em duas pastas bases, client e server, tudo que você colocar em client vai ser utilizado pelo cliente e tudo que for em server pelo servidor. O grande truque aqui, é que tudo que for para ser usado tanto por client quanto por server, fica em diretórios na raiz do projeto, fora de client e server. Assim tanto client quanto server conseguem visualizar e utilizar seu conteúdo. 
 
 Instalar e criar um projeto também é bem simples, basta apenas seguir os passos abaixo: 
 
@@ -111,11 +111,11 @@ Para utilizar essa implementação é preciso chamar isso no template de lista, 
 
 ```html
 <template name="lista">
-      <ul>
+     <ul>
           {{# each livros}}
             <li>{{nome}}</li>
           {{/ each}}
-      </ul>
+    </ul>
 </template>
 ```
 O bloco each nada mais é do que um loop igual ao for each, que vai iterar sobre todos os elementos de livros, criando um li com seu nome para cada um. Salve e veja o resultado no navegador, se tudo ocorreu como deveria você não deve estar vendo nada além da mensgam de olá terráqueo, isso pois em nenhum momento cadastramos algum livro. 
@@ -152,7 +152,7 @@ O primeiro passo para que isso funcione é evitar que o evento padrão de form o
 
 Agora para testar basta apenas que você chame o componente novo no index.html, para isso faça: 
 
-```html
+```
 <head>
 </head>
 <body>
