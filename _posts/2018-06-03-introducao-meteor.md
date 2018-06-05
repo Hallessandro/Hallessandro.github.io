@@ -41,7 +41,7 @@ meteor
 
 Ao acessar o endereço informado pelo servidor, é possível ver uma simples aplicação como a apresentada na imagem abaixo. Apesar de simples ela é bem interessante pois mostra uma das coisas mais legais do Meteor, a capacidade de alterar o conteúdo sem precisar recarregar a página. Faça o teste, clique várias vezes no botão e veja o contador aumentar sem recarregar a página em momento algum. 
 
-![Resultado final](../assets/img/meteor.png) 
+![Resultado](../assets/img/meteor.png) 
 
 Depois de testar, abra o diretório do projeto criado no seu editor de texto preferido, e acesse o diretório client. Dentro dele existem três arquivos, eles são os responsáveis pelo exemplo que você viu quando rodou o projeto. Não vamos precisar mais deles então pode deletar. 
 
@@ -73,14 +73,8 @@ Quando lidamos com aplicações Meteor, não é necessário rescrever todo HTML 
 
 o name aplicado na tag template é nome pelo qual seu template vai ser chamado quando for necessário sua execução. Para testar altera index.html, deixando o código da seguinte forma: 
 
-```html
-<head>
-</head>
-<body>
-    <h4>Olá terráqueos!</h4>
-    {{>lista}}
-</body>
-```
+![Resultado final](../assets/img/meteorPost/code1.png) 
+
 Salve e veja o resultado no navegador. Se você deixou o servidor rodando enquanto fazia as alterações deve ter notado que o servidor do Meteor já é bem esperto e já se atualiza sozinho para você, assim como a página se recarrega no navegador. 
 
 Se tudo ocorreu como esperado você deve estar vendo a lista com os dois elementos logo abaixo do "Olá terráqueos" 
@@ -109,15 +103,8 @@ O lista que vai entre Template e helpers é o nome do seu componente. "livros" �
 
 Para utilizar essa implementação é preciso chamar isso no template de lista, para isso atualize o código de lista.html para: 
 
-```html
-<template name="lista">
-     <ul>
-          {{# each livros}}
-            <li>{{nome}}</li>
-          {{/ each}}
-    </ul>
-</template>
-```
+![Resultado final](../assets/img/meteorPost/code2.png) 
+
 O bloco each nada mais é do que um loop igual ao for each, que vai iterar sobre todos os elementos de livros, criando um li com seu nome para cada um. Salve e veja o resultado no navegador, se tudo ocorreu como deveria você não deve estar vendo nada além da mensgam de olá terráqueo, isso pois em nenhum momento cadastramos algum livro. 
 
 Para resolver isso vamos criar um novo componente, para o cadastro desta vez. Dentro de views crie o diretório novo, com os arquivos novo.html e novo.js. 
@@ -152,15 +139,8 @@ O primeiro passo para que isso funcione é evitar que o evento padrão de form o
 
 Agora para testar basta apenas que você chame o componente novo no index.html, para isso faça: 
 
-```
-<head>
-</head>
-<body>
-        <h4>Olá terráqueos!</h4>
-        {{> novo}}
-        {{> lista}}
-</body>
-```
+![Resultado final](../assets/img/meteorPost/code3.png) 
+
 Agora salve alguns livros e veja que em nenhum momento a página é recarregada, isso é muito legal, o Meteor consegue atuailizar a tela sem que o usuário perceba isso. 
 
 Bem, isso é tudo pessoal, a ideia aqui era montar um exemplo simples e rápido, para iniciar você no Meteor, se você ficou curioso na documentação oficial do Meteor, [aqui](https://www.meteor.com/tutorials), existem três tutoriais que vai permitir que você conheça um pouco mais dessa belezura. Nas referências deixarei alguns links que achei interessante e qualquer dúvida fique a vontade em me mandar uma mensagem. Vlw!
