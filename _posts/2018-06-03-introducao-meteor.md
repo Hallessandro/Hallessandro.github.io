@@ -62,10 +62,10 @@ Para manter as coisas organizadas, dentro de client crie uma pasta chamada views
 
 ```html
 <template name="lista">
-      <ul>
-          <li>Teste</li>
-          <li>Mais um teste</li>
-      </ul>
+    <ul>
+        <li>Teste</li>
+        <li>Mais um teste</li>
+    </ul>
 </template>
 ```
 
@@ -78,7 +78,7 @@ o name aplicado na tag template é nome pelo qual seu template vai ser chamado q
 </head>
 <body>
     <h4>Olá terráqueos!</h4>
-    {{> lista}}
+    {{>lista}}
 </body>
 ```
 Salve e veja o resultado no navegador. Se você deixou o servidor rodando enquanto fazia as alterações deve ter notado que o servidor do Meteor já é bem esperto e já se atualiza sozinho para você, assim como a página se recarrega no navegador. 
@@ -156,9 +156,9 @@ Agora para testar basta apenas que você chame o componente novo no index.html, 
 <head>
 </head>
 <body>
-    <h4>Olá terráqueos!</h4>
-    {{> novo}}
-    {{> lista}}
+        <h4>Olá terráqueos!</h4>
+        {{> novo}}
+        {{> lista}}
 </body>
 ```
 Agora salve alguns livros e veja que em nenhum momento a página é recarregada, isso é muito legal, o Meteor consegue atuailizar a tela sem que o usuário perceba isso. 
