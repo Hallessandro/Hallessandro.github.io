@@ -5,6 +5,7 @@ author: "Hallessandro D´villa"
 categories: programmi
 tags: [meteor,javascript, node, meteorjs]
 image: coverPosts/meteor.png
+header-img: "coverPosts/meteor.png"
 ---
 
 Olá terráqueos, faz um bom tempo que não posto nada novo, muito pelo fato que ultimamente não vinha trabalhando com coisas novas. Porém isso mudou nos últimos dias graças ao Meteor. Se você não sabe o que é, assim como eu não sabia, você precisa conhecer. 
