@@ -9,9 +9,15 @@ header-img: "coverPosts/mongo.png"
 ---
 
 Sobre o que falar: 
-1. O que é Mongo; 
-2. Como instalar;
-3. Criar uma collection; 
+1. O que é Mongo?
+> MongoDB é o mais popular NoSQL e um dos mais utilizados bancos do mundo, segundo a db-engines
+<https://db-engines.com/en/ranking> 
+2. Como instalar?
+> Usar como referência para intalar no Linux <https://www.digitalocean.com/community/tutorials/como-instalar-o-mongodb-no-ubuntu-16-04-pt> 
+> No Windows 
+
+3. O que é e como criar uma collection; 
+
 4. Inserir dados; 
 5. Consultas com find() e findOne(); 
 6. Update; 
