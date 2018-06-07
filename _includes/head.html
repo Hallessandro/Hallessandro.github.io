@@ -1,5 +1,4 @@
-<head>
-
+<head>  
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} 
@@ -7,14 +6,12 @@
       {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
-
+    {% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+    {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   
-  {% if page.header-img %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
-  {% endif %}
-
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css">
   <!-- Use Atom -->
