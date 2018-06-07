@@ -26,12 +26,8 @@ Template.lista.helpers({
 });
 Template.lista.events({
     "click button" : function (e, template) {
-            //Atualizar código
-            e.preventDefault();
-            let input = $("#livro");
-            let nome = input.val();
-            Livros.remove({nome: nome});
-            input.val("");
+            let livro = this; 
+            Livros.remove({_id: livro._id});
     }
 });
 ```
@@ -50,12 +46,8 @@ Agora em lista.js ao invés de capturar apenas o evento de clique vamos capturar
 ```javascript
 Template.lista.events({
     "click button .remover" : function (e, template) {
-            //Atualizar código
-            e.preventDefault();
-            let input = $("#livro");
-            let nome = input.val();
-            Livros.remove({nome: nome});
-            input.val("");
+            let livro = this; 
+            Livros.remove({_id: livro._id});
     }
 });
 ```
