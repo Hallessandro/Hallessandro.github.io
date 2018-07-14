@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Consumindo uma API com Angular"
+title: "#2 - Consumindo uma API com Angular"
 author: "Hallessandro D´villa"
 categories: programmi
 tags: [angular,javascript, rest, api]

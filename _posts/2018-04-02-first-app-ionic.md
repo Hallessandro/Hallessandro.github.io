@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desenvolvendo um app mobile com Ionic 3, Parte I - Instalação e criação do projeto"
+title: "#1 - Desenvolvendo um app mobile com Ionic 3, Parte I - Instalação e criação do projeto"
 author: "Hallessandro D´villa"
 categories: journal
 tags: [ionic,app, mobile, multiplataforma]
