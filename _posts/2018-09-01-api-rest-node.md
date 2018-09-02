@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#6 - Criando uma api rest com Node js"
+title: "#6 - Construindo uma API REST com Node js"
 author: "Hallessandro D´villa"
 categories: programming
 tags: [rest, node, javascript, nodejs]
