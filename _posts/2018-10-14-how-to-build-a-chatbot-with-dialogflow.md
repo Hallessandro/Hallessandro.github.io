@@ -55,7 +55,7 @@ Open the welcome intent, you will see a lot of training phrases and responses, d
 
 Save your changes and click in Save button, a message will be appear, to tell you that the bot is training, wait a few seconds and we'll test our changes. First say something like hi or hello to receive the new welcome message, something like this: 
 
-![first-test](post9/first-test.png)
+![first-test](../assets/img/post9/first-test.png)
 
 After this, say something weird and see what happens, one of the default responses defined in fallback intent will be displayed. When are more of one responses the system randomly chooses one of then to answer you. If you want, change the responses of fallback intent, in my case a remove all the defaults responses and create a new, like this: 
 
@@ -63,7 +63,7 @@ After this, say something weird and see what happens, one of the default respons
 
 Now let's create a new intent to show the available pizzas to the user, for this click in the plus symbol on the intent menu:
 
-![new_intent](post9/new_intent.png)
+![new_intent](../assets/img/post9/new_intent.png)
 
 Now we have to define three things, the name of intent (I called pizza_available), the training phrases and the responses. Feel free to define the training phrases and more of one response if you want, I defined just one.
 
@@ -75,23 +75,23 @@ Now let's create a intent to deal with order pizza, but in this intent we have a
 
 Now you need define the name of the entity and the values, something like this:
 
- ![entity_pizza](post9/entity_pizza.png)
+ ![entity_pizza](../assets/img/post9/entity_pizza.png)
 
 Save the changes and back to the order pizza intent. 
 
 In order pizza intent, if you create a training phrase like "Please, give me a Sausage pizza", you will see that the sausage word will be recognized as a pizza_flavor entity, like this:
 
-![entity_used](post9/entity_used.png)
+![entity_used](../assets/img/post9/entity_used.png)
 
 The flavor of pizza is a important information, so we can define that it's a  required information, for this scroll your page until "Action and parameters", and mark the required checkbox. 
 
 Another good options for improve this behavior is define a prompt to ask the user when the flavor is not passed, for this click in "Define prompts" and write a phrase to be send
 
-![define_Prompt](post9/define_Prompt.png) 
+![define_Prompt](../assets/img/post9/define_Prompt.png) 
 
 Now we need to define the answer for this intent, before explain I will show you how a define the my response: 
 
-![response_final](post9/response_final.png)
+![response_final](../assets/img/post9/response_final.png)
 
 First thing, the **$pizza_flavor** in the text response was used to add dynamically in the response the type of pizza request by the user, this work like template string on JS for example, concatenating text and values. 
 
