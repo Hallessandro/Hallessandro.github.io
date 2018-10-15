@@ -7,7 +7,7 @@ tags: [chatbot, machine learning, google, dialogflow]
 image: coverPosts/dialogflow.png
 header-img: "coverPosts/dialogflow.png"
 ---
-Hi guys, today I will talk about a very interesting thing called chatbot, so i expected 
+Hi guys, today I will talk about a very interesting thing called chatbot and how build one with DialogFlow, so I hope you enjoy. 
 
 ### What is a chatbot
 
