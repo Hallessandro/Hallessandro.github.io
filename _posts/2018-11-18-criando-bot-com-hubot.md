@@ -35,7 +35,7 @@ Serão feitas algumas perguntas a você, como o nome do bot e o adapter a ser ut
 
 > “Adapters are the interface to the service you want your hubot to run on.”
 
-No nosso caso vamos integrar o Hubot ao RocketChat, por isso quando questionado pelo adapter, responda “rocketchat”. Para as demais perguntas fique a vontade para responder, além do adapter a única outra que fará grande diferença é o nome do bot, pois é por esse nome que ele será chamado.  
+No nosso caso vamos integrar o Hubot ao RocketChat, por isso quando questionado pelo adapter, responda “rocketchat”. Para as demais perguntas fique a vontade para responder da forma como quiser, além do adapter a única outra que fará grande diferença é o nome do bot, pois é por esse nome que ele será chamado.  
 
 ![first-test](../assets/img/post_hubot/01.png)
 
@@ -49,7 +49,7 @@ Uma lista de comandos será apresentada, escolha um deles e execute para testar.
 
 ![first-test](../assets/img/post_hubot/02.png)
 
-Apesar de não fazer grandes coisas logo após sua criação, o Hubot é extremamente moldável, o que permite que possa ser expandido para fazer as mais diversas funções. Como exemplo, dentro do GitHub ele é responsável por atuar como um agente ativo no processo de deploy da aplicação, como você pode ver nesse [aqui](https://www.youtube.com/watch?v=kCGeB3ewHyA).  
+Apesar de não fazer grandes coisas logo após sua criação, o Hubot é extremamente moldável, o que permite que possa ser expandido para fazer as mais diversas funções. Como exemplo, dentro do GitHub ele é responsável por atuar como um agente ativo no processo de deploy do GitHub, como você pode ver nesse vídeo [aqui](https://www.youtube.com/watch?v=kCGeB3ewHyA).  
 
 Esse processo onde um bot é integrado a um canal de comunicação, participando ativamente dos processos da empresa, recebe o nome de ChatOps, porém não vamos entrar muito em detalhes disto agora, pois seria um spoiler de outro post. :-D 
 
@@ -61,20 +61,20 @@ Para que um arquivo esteja dentro dos padrões do Hubot, basta que o mesmo  este
 
 ```javascript
 module.exports = (robot) ->
-  \\ your code here
+  \\your code here
 ```
 
 O parâmetro robot é uma instância do seu bot, ele sempre deve ser passado nas funções criadas. 
 
-O nosso bot criado com Hubot, nada mais é do que um chatbot, e como um, as duas interações mais simples que ele deve ser capaz de realizar são ouvir e responder, para isso o Hubot disponibiliza os métodos hear e respond. Uma caracteristica de ambos os métodos é que eles recebem como parâmetros uma expressão regular, com o padrão de texto e uma função de callback, como no exemplo abaixo, tirado diretamente da documentação oficial: 
+O nosso bot criado com Hubot, nada mais é do que um chatbot, e como um, as duas interações mais simples que ele deve ser capaz de realizar são ouvir e responder, para isso o Hubot disponibiliza os métodos hear e respond. Uma caracteristica de ambos os métodos é que eles recebem como parâmetros uma expressão regular e uma função de callback, como no exemplo abaixo, tirado diretamente da documentação oficial: 
 
 ```javascript
 module.exports = (robot) ->
   robot.hear /badger/i, (res) ->
-    \\ your code here
+    \\your code here
 
   robot.respond /open the pod bay doors/i, (res) ->
-	\\ your code here
+	\\your code here
 ```
 
 O método **robot.hear** é acionado sempre que uma mensagem de texto combinar com o padrão, como nos exemplos abaixo: 
@@ -92,7 +92,9 @@ Já o método **robot.respond** é chamado por mensagens que combinem com o padr
 
 A documentação completa sobre o que é possível fazer com scripts no Hubot, pode ser vista [aqui](https://hubot.github.com/docs/scripting/). 
 
-Neste post vamos focar na capacidade de fazer requisições HTTP, para consumir uma API que retorne informações sobre a cotação atual de algumas moedas, como o Dólar e o Euro.  O Hubot é capaz de trabalhar com requisições HTTP por meio do robot.http, que nada mais do que uma instância node-scoped-http-client. Um simples exemplo é: 
+Neste post vamos focar na capacidade de fazer requisições HTTP, para consumir uma API que retorne informações sobre a cotação atual de algumas moedas. 
+
+O Hubot é capaz de trabalhar com requisições HTTP por meio do robot.http, que nada mais do que uma instância node-scoped-http-client. Um simples exemplo é: 
 
 ```javascript
  robot.http("https://midnight-train")
@@ -121,7 +123,7 @@ Depois que tudo for finalizado, acesse o localhost/ para ter acesso a sua instâ
 
  
 
-Com o RocketChat devidamente configurado vamos criar um usuário para o nosso bot, ele vai precisar, para conseguir acessar o chat, para isso acesse o menu de Administração: 
+Com o RocketChat devidamente configurado vamos criar um usuário para o nosso bot, ele vai precisar para conseguir acessar o chat, para isso acesse o menu de Administração: 
 
 ![first-test](../assets/img/post_hubot/07.png)
 
@@ -232,6 +234,8 @@ Em res.reply estamos retornando o valor da posição zero de resultado, pois o J
 Com tudo feito, reinicie o seu bot e acesse o chat, requisitando a ele a cotação de alguma moeda, se tudo deu certo, você vai receber o resultado esperado, como na imagem abaixo: 
 
 ![first-test](../assets/img/post_hubot/12.png)
+
+O código fonte do bot criado durante esse post pode ser encontrado no meu GitHub, no repositório [dolarBot](https://github.com/Hallessandro/dolarBot). 
 
 Por hoje é tudo pessoal, porém esse é um assunto com bastante potencial e em breve voltarei com mais coisas relacionadas, então até a próxima. 
 
