@@ -4,8 +4,8 @@ title: "#10 - Criação e integração de um bot ao RocketChat"
 author: "Hallessandro D´villa"
 categories: programming
 tags: [chatbot, hubot, github]
-image: coverPosts/dialogflow.png
-header-img: "coverPosts/dialogflow.png"
+image: coverPosts/rocket_hubot.png
+header-img: "coverPosts/rocket_hubot.png"
 ---
 Olá terráqueos, no post de hoje vamos ver como criar um bot utilizando o Hubot, um robô customizável e open source, criado e distribuído pelo GitHub. 
 
