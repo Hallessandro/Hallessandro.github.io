@@ -7,18 +7,19 @@ tags: [python, strings]
 image: coverPosts/str_python.png
 header-img: "coverPosts/str_python.png"
 ---
-Hey guys, today I will talk about how to use strings In Python and some useful methods availables. Strings in python are exactly equal a strings in other languages like Java or Javascript, a sequence of one or more characters. 
+Hey guys, today I will talk about how to use strings In Python, and some useful methods available. Strings in python are exactly equal a strings in other languages like Java or Javascript, a sequence of one or more characters. 
 
 Strings can be created within either single quotes ' or double quotes " in Python, so to create a string, enclose a sequence of characters in one or the other, like this: 
 
 ```python
-​```python "This is a string in double quotes." 'This is a string in single quotes.'```
+​"This is a string in double quotes." 
+'This is a string in single quotes.'
 ```
 
 For print the value of a string, just use the print() function, like this: 
 
 ```python
-​```pythonprint("This is a string") Output: This is a string```
+print("This is a string") Output: This is a string
 ```
 
 ### STRING CONCATENATION
@@ -26,23 +27,31 @@ For print the value of a string, just use the print() function, like this:
 Concatenation means joining strings together end-to-end to create a new string. In Python to concatenate strings, we use the + operator. The + operator is used for sum the values of two or more numbers, but when used with strings, this guy concatenate the value of the strings, like this: 
 
 ```python
-​```pythonstring1 = "Hello" string2 = "world" print(string1 + string2) Output: Hello world```
+string1 = "Hello" 
+string2 = "world" 
+print(string1 + string2) 
+Output: Hello world
 ```
 
 Note; The + operator not be used with two different data types, we can’t concatenate strings and integers for example, if you try something like this: 
 
- print(“Jose” + 51)
+```python
+print(“Jose” + 51)
+```
 
 The following error will be receive: 
 
 ```python
-​```pythonTypeError: Can't convert 'int' object to str implicitly.``` 
+TypeError: Can't convert 'int' object to str implicitly.
 ```
 
 If you want to create the string “Jose51”, you could this by putting the number 51 in quotes, or using the function str(), like this: 
 
 ```python
-​```pythonmy_str = "Jose"  age = 51 print(my_str + str(age)) Output: Jose51```
+my_str = "Jose"  
+age = 51 
+print(my_str + str(age)) 
+Output: Jose51
 ```
 
 You can concatenate how many strings you want, but your code will not be very readable with too many concatenations, so use sparingly.
@@ -52,7 +61,8 @@ You can concatenate how many strings you want, but your code will not be very re
 If you need print a same string several times, you can easily do this with the * operator. Like the + operator, the * operator has a different use when used with numbers. Let’s print “Go Packers “ 5 times, without typing this 9 times or using CTRL C + CTRL V. 
 
 ```python
-​```pythonprint("Go Packers " * 5) Output: Go Packers Go Packers Go Packers Go Packers Go Packers```
+print("Go Packers " * 5) 
+Output: Go Packers Go Packers Go Packers Go Packers Go Packers
 ```
 
 ### USING STRING FORMATTERS
@@ -62,87 +72,124 @@ In the string class, Python has a very useful method called str.format(), this g
 Formatters work by putting a pair of curly braces {} into a string and calling the str.format() method, like this:
 
 ```python
-​```pythonprint("Jose has {} books.".format(5)) Output: Jose has 5 books.``` 
+print("Jose has {} books.".format(5)) 
+Output: Jose has 5 books.
 ```
 
 Formatters also can be used for multiple placeholders, like this: 
 
 ```python
-​```pythonmy_str = "Jose has {} oranges and {} apples."  print(my_str.format(5,3)) Output: Jose has 5 oranges and 3 apples.``` 
+my_str = "Jose has {} oranges and {} apples."  
+print(my_str.format(5,3)) 
+Output: Jose has 5 oranges and 3 apples.
 ```
 
 When we leave the curly braces empty without any parameters, Python will replace the values passed through the str.format() in order. The values passed to the str.format() method are essentially a tuple, and each individual value contained in the tuple can be called by your index number. 
 
 ```python
-​```pythonmy_str = "Jose has {0} oranges and {1} apples."  print(my_str.format(5,3)) Output: Jose has 5 oranges and 3 apples.``` 
+my_str = "Jose has {0} oranges and {1} apples."  
+print(my_str.format(5,3)) 
+Output: Jose has 5 oranges and 3 apples.
 ```
 
 Knowing the index number, we can change the order the parameters, like this: 
 
 ```python
-​```pythonmy_str = "Jose has {1} oranges and {0} apples."  print(my_str.format(5,3)) Output: Jose has 3 oranges and 5 apples. ```
+my_str = "Jose has {1} oranges and {0} apples."  
+print(my_str.format(5,3)) 
+Output: Jose has 3 oranges and 5 apples.
 ```
 
 ### AN OVERVIEW THROUGH ANOTHER USEFUL METHODS
 
-1. **find():** Returns the index of first occurrence of a substring passed as parameter.
+1. **find():** Returns the index of first occurrence of a substring passed as parameter:
 
 ```python
-​```pythonmy_str = "Hello world" print(my_str.find("world")) Output: 6```
+​my_str = "Hello world" 
+print(my_str.find("world")) 
+Output: 6
 ```
 
 2.  **index():** Returns the index of a substring: 
 
 ```python
-​```pythonmy_str = "Hello world" print(my_str.find("world")) Output: 6```
+my_str = "Hello world" 
+print(my_str.find("world")) 
+Output: 6
 ```
 
-3. **join():** Returns a string in which the string elements of sequence have been joined by str separator.
+3. **join():** Returns a string in which the string elements of sequence have been joined by str separator:
 
 ```python
-​```python s = "-"; seq = ("a", "b", "c"); # This is sequence of strings. print s.join( seq ) Output: a-b-c```
+​s = "-"
+seq = ("a", "b", "c")
+print s.join( seq ) 
+Output: a-b-c
 ```
 
 4. **lower():** Returns a lowercase string: 
 
 ```python
-​```pythonmy_str = "HELLO"  print(my_str.lower()) Output: hello```
+my_str = "HELLO"  
+print(my_str.lower()) 
+Output: hello
 ```
 
 5. **upper():** Returns a uppercase string: 
 
 ```python
-​```pythonmy_str = "hello"  print(my_str.lower()) Output: HELLO```
+​my_str = "hello" 
+print(my_str.lower()) 
+Output: HELLO
 ```
 
 6. **swapcase()**: Swap uppercase strings to lowercase and vice versa: 
 
 ```python
-​```pythonmy_str = "hello" print(my_str.swapcase()) Output: HELLO```
+​my_str = "hello"
+print(my_str.swapcase()) 
+Output: HELLO
 ```
 
 7. **rstrip():** This method returns a copy of the string in which all chars have been stripped from the end of the string (default whitespace characters): 
 
 ```python
-​```pythonstr = "     this is string example....wow!!!     "; print str.rstrip() Output: this is string example....wow!!!  str = "88888888this is string example....wow!!!8888888"; print str.rstrip('8') Output: 88888888this is string example....wow!!!```
+​str = "     this is string example....wow!!!     "
+print (str.rstrip()) 
+Output: this is string example....wow!!!  
+str = "88888888this is string example....wow!!!8888888"
+print (str.rstrip('8')) 
+Output: 88888888this is string example....wow!!!
 ```
 
 8. **strip():** This method returns a copy of the string in which all chars have been stripped from the beginning and the end of the string:
 
 ```python
-​```pythonstr = "0000000this is string example....wow!!!0000000"; print str.strip('0') Output: this is string example....wow!!!```
+​str = "0000000this is string example....wow!!!0000000" 
+print (str.strip('0')) 
+Output: this is string example....wow!!!
 ```
 
 9. **replace():** Returns a copy of the string with all occurrences of substring old replaced by new. If the optional argument max is given, only the first count occurrences are replaced:
 
 ```python
-​```pythonstr = "this is string example....wow!!! this is really string" print str.replace("is", "was") Output: thwas was string example....wow!!! thwas was really string print str.replace("is", "was", 3) Output: thwas was string example....wow!!! thwas is really string```
+str = "this is string example....wow!!! this is really string" 
+print (str.replace("is", "was"))
+Output: thwas was string example....wow!!! thwas was really string 
+print (str.replace("is", "was", 3)) 
+Output: thwas was string example....wow!!! thwas is really string
 ```
 
 10. **startswith():** Returns true if found matching string otherwise false:
 
 ```python
-​```pythonstr = "this is string example....wow!!!"; print str.startswith( 'this' ) Output: True print str.startswith( 'is', 2, 4 ) Output: True print str.startswith( 'this', 2, 4 ) Output: False```
+str = "this is string example....wow!!!" 
+print (str.startswith( 'this' )) 
+Output: True 
+print (str.startswith( 'is', 2, 4 )) 
+Output: True 
+print (str.startswith( 'this', 2, 4 ))
+Output: False```
 ```
 
 Besides these, there are other methods that are worth your attention, so I recommend taking a look at the [official documentation](https://docs.python.org/2/library/string.html) of the String class.
