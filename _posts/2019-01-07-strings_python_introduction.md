@@ -102,7 +102,7 @@ Output: Jose has 3 oranges and 5 apples.
 
 ### AN OVERVIEW THROUGH ANOTHER USEFUL METHODS
 
-1. **find():** Returns the index of first occurrence of a substring passed as parameter:
+- **find():** Returns the index of first occurrence of a substring passed as parameter:
 
 ```python
 ​my_str = "Hello world" 
@@ -110,7 +110,7 @@ print(my_str.find("world"))
 Output: 6
 ```
 
-2.  **index():** Returns the index of a substring: 
+- **index():** Returns the index of a substring: 
 
 ```python
 my_str = "Hello world" 
@@ -118,7 +118,7 @@ print(my_str.find("world"))
 Output: 6
 ```
 
-3. **join():** Returns a string in which the string elements of sequence have been joined by str separator:
+- **join():** Returns a string in which the string elements of sequence have been joined by str separator:
 
 ```python
 ​s = "-"
@@ -127,7 +127,7 @@ print s.join( seq )
 Output: a-b-c
 ```
 
-4. **lower():** Returns a lowercase string: 
+- **lower():** Returns a lowercase string: 
 
 ```python
 my_str = "HELLO"  
@@ -135,7 +135,7 @@ print(my_str.lower())
 Output: hello
 ```
 
-5. **upper():** Returns a uppercase string: 
+- **upper():** Returns a uppercase string: 
 
 ```python
 ​my_str = "hello" 
@@ -143,7 +143,7 @@ print(my_str.lower())
 Output: HELLO
 ```
 
-6. **swapcase()**: Swap uppercase strings to lowercase and vice versa: 
+- **swapcase()**: Swap uppercase strings to lowercase and vice versa: 
 
 ```python
 ​my_str = "hello"
@@ -151,7 +151,7 @@ print(my_str.swapcase())
 Output: HELLO
 ```
 
-7. **rstrip():** This method returns a copy of the string in which all chars have been stripped from the end of the string (default whitespace characters): 
+- **rstrip():** This method returns a copy of the string in which all chars have been stripped from the end of the string (default whitespace characters): 
 
 ```python
 ​str = "     this is string example....wow!!!     "
@@ -162,7 +162,7 @@ print (str.rstrip('8'))
 Output: 88888888this is string example....wow!!!
 ```
 
-8. **strip():** This method returns a copy of the string in which all chars have been stripped from the beginning and the end of the string:
+- **strip():** This method returns a copy of the string in which all chars have been stripped from the beginning and the end of the string:
 
 ```python
 ​str = "0000000this is string example....wow!!!0000000" 
@@ -170,7 +170,7 @@ print (str.strip('0'))
 Output: this is string example....wow!!!
 ```
 
-9. **replace():** Returns a copy of the string with all occurrences of substring old replaced by new. If the optional argument max is given, only the first count occurrences are replaced:
+- **replace():** Returns a copy of the string with all occurrences of substring old replaced by new. If the optional argument max is given, only the first count occurrences are replaced:
 
 ```python
 str = "this is string example....wow!!! this is really string" 
@@ -180,7 +180,7 @@ print (str.replace("is", "was", 3))
 Output: thwas was string example....wow!!! thwas is really string
 ```
 
-10. **startswith():** Returns true if found matching string otherwise false:
+- **startswith():** Returns true if found matching string otherwise false:
 
 ```python
 str = "this is string example....wow!!!" 
