@@ -4,8 +4,8 @@ title: "#13 - How to create a HTTP server with Python"
 author: "Hallessandro D´villa"
 categories: programming
 tags: [python, http, server, html]
-image: coverPosts/http.png
-header-img: "coverPosts/http.png"
+image: coverPosts/http.jpg
+header-img: "coverPosts/http.jpg"
 ---
 Hey guys, my name is Hallessandro, I am a software developer that currently works and live in Brazil, and in this post I will show you how to create a HTTP server using Python, so let's get start. 
 
