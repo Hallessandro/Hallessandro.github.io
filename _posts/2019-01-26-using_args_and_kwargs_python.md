@@ -14,7 +14,7 @@ Firstly let's create a simple function to sum two numbers:
 ```python
 def soma(a,b):
     return a + b
-
+.
 print(soma(1,3))
 ```
 
@@ -29,7 +29,7 @@ We can't pass three numbers for our function, because they just be defined for r
 
 ### Using *args
 
-> The asterisk (*) before the word args, it's really important, don't forge it. 
+> The asterisk (*) before the word args, it's really important, don't forget it. 
 
 ***args** can be used as a parameter to send a non-keyworded variable-length argument list to functions, so if you suspect that you may need more arguments later on, you need use *args instead pass normal arguments, something like this: 
 
