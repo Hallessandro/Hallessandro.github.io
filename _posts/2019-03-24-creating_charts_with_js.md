@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#15 - Creating charts with JavaScript using Plotly.js
+title: "#15 - Creating charts with JavaScript using PlotlyJS"
 author: "Hallessandro D´villa"
 categories: programming
 tags: [javascript, chart, plotly, programming]
