@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#17 - Quick Tip - Array.prototype.**concat()**"
+title: "#17 - Quick Tip - Array.prototype.concat()"
 author: "Hallessandro D´villa"
 categories: programming, javascript
 tags: [programming, javascript, arrays]
