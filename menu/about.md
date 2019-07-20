@@ -7,7 +7,7 @@ title: About me
     style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
 
 
-Hi, I'm Hallessandro, a Brazilian guy that works as software developer and like to write post about technology and play video games in the free time. Above you will found the links for all my social network, but if you want, you can also add me on the PSN for play some games, my nickname is MrDvilla. 
+Hi, I'm Hallessandro, a Brazilian guy that works as software developer and like to write posts about technology and play video games in the free time. Above you will found the links for all my social network, but if you want, you can also add me on the PSN for play some games, my nickname is MrDvilla. 
 
 ### Formation
 
