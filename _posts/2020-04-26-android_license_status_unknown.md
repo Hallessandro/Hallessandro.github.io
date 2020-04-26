@@ -37,12 +37,12 @@ Try re-installing or updating your Android SDK,
 visit https://flutter.dev/setup/#android-setup for detailed instructions.
 ```
 
-This problem occurs because the the android sdk tool has been renamed to android sdk command-line tools, which is located in: 
+This problem occurs because the android sdk tool has been renamed to android sdk command-line tools, which is located in:
 ```
 (C:\Users\hdjes\AppData/Local/Android/Sdk/cmdline-tools/latest/bin
 ```
 
-So the Flutter is trying to finding something that don't exists anymore in that directory, to solve this we need to install the skd tool, for this, open Android Studio, go to Configure -> SDK Manager -> SDK Tools -> Uncheck Hide Obsolete Packages, and you'll see Android SDK Tools (Obsolete) 26.1.1, now just install this package. 
+So the Flutter is trying to find something that don’t exist anymore in that directory, to solve this we need to install the skd tool, for this, open Android Studio, go to Configure -> SDK Manager -> SDK Tools -> Uncheck Hide Obsolete Packages, and you’ll see Android SDK Tools (Obsolete) 26.1.1, now just install this package.
 
 After that we can run **flutter doctor --android-licenses** again, but this time no problem should be found and several licenses will be shown to you, and you basically accept them if you agree.
 
