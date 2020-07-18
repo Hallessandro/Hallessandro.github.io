@@ -2,7 +2,7 @@
 layout: post
 title: "#19 - An introduction to CSS animation"
 author: "Hallessandro D´villa"
-categories: programming, css, frontend
+categories: css
 tags: [programming, css, frontend]
 image: coverPosts/css_animation.png
 header-img: "css_animation.png"
@@ -11,6 +11,7 @@ header-img: "css_animation.png"
 Hello, in this post we will talk about CSS animation, but before we start I created this simple HTML page and a CSS code to use as example during the explanations, so please copy and paste this in your favorite editor and let's get started. 
 
 <img src="../assets/img/memes/suzumiya.png" alt="suzumiya thumbs up" style="width:400px;"/>
+<img src="../assets/img/memes/pikachu.jpg" alt="drawing" style="width:200px;"/>
 
 ```html
 <!DOCTYPE html>
