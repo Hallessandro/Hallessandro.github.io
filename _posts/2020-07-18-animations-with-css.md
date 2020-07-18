@@ -41,7 +41,7 @@ This is the CSS:
 
 #### CSS animations 
 
-Animations in CSS contains two parts, the keyframe at-rule, which defines an animation and the the animation property, which applies that animation to an element. 
+Animations in CSS contains two parts, the keyframe at-rule, which defines an animation and the animation property, which applies that animation to an element. 
 
 When we use keyframes we need to define at least two things, the name of the animation and the values that specifies when the style will change during the animation, this can be done using percent or the keywords "from" and "to", which is the same that 0% and 100%. 
 
