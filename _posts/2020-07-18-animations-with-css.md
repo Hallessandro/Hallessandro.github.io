@@ -11,7 +11,6 @@ header-img: "css_animation.png"
 Hello, in this post we will talk about CSS animation, but before we start I created this simple HTML page and a CSS code to use as example during the explanations, so please copy and paste this in your favorite editor and let's get started. 
 
 <img src="../assets/img/memes/suzumiya.png" alt="suzumiya thumbs up" style="width:400px;"/>
-<img src="../assets/img/memes/pikachu.jpg" alt="drawing" style="width:200px;"/>
 
 ```html
 <!DOCTYPE html>
