@@ -43,7 +43,7 @@ function _draw()
 	
 	if(count(bullets)>25
 		and (count(enemy_bullets)>=50 
-			and count(enemy_bullets)<=300)) then
+			and count(enemy_bullets)<=400)) then
 				spr(14,0,110,2,2)
 				print("mamma mia!",15,100)
 				print("sonic ta cagando moeda",15,110)
