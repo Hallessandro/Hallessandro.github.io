@@ -25,7 +25,7 @@ São só duas linhas simples, mas que carregam um peso brutal. Em uma sociedade 
 
 *On the Run* é estranha e causa ansiedade. Parece que, do nada, tudo se tornou urgente. Parece que a gente precisa correr, senão vai ficar para trás na corrida. Que corrida? Não sei (alguém será que sabe? kkk).
 
-Se em *On the Run* estamos todos correndo sem saber o motivo, *Time* faz a gente acordar — com despertadores de fato tocando no começo. A gente não precisa correr, mas também não deve parar e esperar algo. A vida é finita, e devemos aproveitar ela da melhor forma. Sem urgência, sem medo. Não é uma corrida, é livro aberto e pronto para ser preenchido de aventuras.
+Se em *On the Run* estamos todos correndo sem saber o motivo, *Time* faz a gente acordar — com despertadores de fato tocando no começo. A gente não precisa correr, mas também não deve parar e esperar algo. A vida é finita, e devemos aproveitar ela da melhor forma. Sem urgência, sem medo. Não é uma corrida, é um livro aberto e pronto para ser preenchido de aventuras.
 
 *The Great Gig in the Sky* é sobre aceitar a finitude dessa nossa vida, mas, novamente, sem pânico. É o ciclo natural das coisas. Você nem precisa pensar muito sobre isso; é só seguir naturalmente.
 
@@ -35,7 +35,7 @@ Agora se o Lado A pegou a gente pela mão para gente poder refletir sobre nós m
 
 *Money* já começa com as caixas registradoras barulhentas. Não há tempo para toda essa reflexão e nem para contemplar sua existência. O capitalismo demanda o seu sacrifício. Você é parte de uma engrenagem e seu valor é medido pelo que consegue entregar nesse processo. 
 
-Essa música é maravilhosa. É uma das maiores e melhores críticas ao capitalismo e ao consumismo que já vi. Ironicamente, essa é a música do disco que mais escuto repetidamente. A maior crítica ao consumismo, é feita de uma forma tão gosta de se ouvir, que faz ter mais vontade de consumir ela mais e mais.  
+Essa música é maravilhosa. É uma das maiores e melhores críticas ao capitalismo e ao consumismo que já vi. Ironicamente, essa é a música do disco que mais escuto repetidamente. A maior crítica ao consumismo, é feita de uma forma tão gostosa de se ouvir, que faz ter vontade de consumir ela mais e mais.  
 
 *Us and Them* carrega o desdobramento sociopolítico. O "nós contra eles", as guerras travadas por velhos no poder enquanto os jovens morrem no chão — a empatia humana esmagada pelas estruturas sociais. 
 
