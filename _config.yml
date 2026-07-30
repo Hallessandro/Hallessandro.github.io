@@ -1,6 +1,6 @@
 title: Hallessandro
 description: Textos sobre música, jogos, livros, mídias físicas e reflexões.
-theme: jekyll-theme-midnight
+theme: minima
 
 # Configurações do tema Minima
 header_pages:
@@ -9,3 +9,6 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+minima:
+  skin: dark  
