@@ -5,7 +5,7 @@ date: 2026-09-03 12:00:00 -0300
 categories: [musica, resenhas]
 ---
 
-*Ummagumma ao vivo é uma grande viagem ao espaço — sideral ou da mente? — e ao encontro de um desconhecido intimidador.
+Ummagumma ao vivo é uma grande viagem ao espaço — sideral ou da mente? — e ao encontro de um desconhecido intimidador.
 
 Eu adoro discos que me fazem sentir e imaginar coisas, e esse faz isso muito bem. Ele constrói um cenário quase de transe, em que somos arrastados em uma jornada sem objetivo ou destino. E o mais impressionante é que esse disco consegue criar um clima de suspense, quase de terror.
 
