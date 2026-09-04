@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Falando sobre Ummagumma ao vivo"
+title: "Falando sobre Ummagumma - Disco ao vivo"
 date: 2026-09-03 12:00:00 -0300
 categories: [musica, resenhas]
 ---
